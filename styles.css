@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div-main {
+    height: 100vh;
+    width: 100vw;
+    background: url('./Assets/background.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 55%;
+    margin-top: 160px;
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 85px;
+    background: rgba(20, 15, 38, 0.648579);
+    opacity: 0.9;
+    color: white;
+    font-size: 20px;
+    padding-left: 19px;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.sing-in {
+    height: 50px;
+    width: 85vw;
+    border-radius: 30px;
+    margin-top: 25px;
+    background: linear-gradient( 314.33deg, #645AFF -3.69%, #A573FF 109.82%);
+    border: none;
+    font-size: 20px;
+}
+
+p {
+    margin: 20px;
+    color: white;
+}
+
+.facebook {
+    height: 50px;
+    width: 85vw;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.35);
+    background-blend-mode: overlay;
+    border: none;
+    font-size: 20px;
+}
+
+#linha-horizontal {
+    width: 45px;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border: 2px solid #FFFFFF;
+}
+
+.horizontal-line {
+    margin: 10px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.div-links {
+    margin-top: 60px;
+}
+
+#account {
+    padding-left: 90px;
+}
